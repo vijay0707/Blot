@@ -1,0 +1,90 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-img{
+    background-image: url("/img/bg.jpg");
+    background-color: transparent;
+    content: normal;
+    background-repeat: no-repeat;
+    font-family: 'Pacifico', cursive;
+    background-position:top left;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.top-left{
+    position: absolute;
+    top: 0%;
+    left: 16px;
+    
+
+}
+
+#lgo{
+    width: 15%;
+    
+}
+
+.mid{
+    position: relative;
+    text-align: center;
+    top: 8%;
+    left: 43%;
+    float: left;
+
+}
+hr{
+    width: 10em;
+
+}
+
+#com{
+    font-size: 3em;
+    color: black;
+    font-weight: bolder;
+}
+
+#demo{
+    color: black;
+    font-size: 1.5em;
+}
+
+.end{
+    position: relative;
+    float: left;
+    left: 30%;
+    bottom: 0;
+    color: black;
+    top: 49%;
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    background-color: transparent;
+    padding: 5px;
+    
+    
+
+}
+
+a{
+    text-decoration: none;
+    
+
+}
+
+.end>a:hover{
+    text-shadow: blue;
+    color: rgb(109, 28, 156);
+    background-color: rgba(0, 0, 0, 0.863);
+    border: black 1px solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.6s;
+    transform-origin: left;
+
+
+}
+

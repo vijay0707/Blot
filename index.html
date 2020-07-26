@@ -1,0 +1,43 @@
+<html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <title>BLOT</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+
+        <body>
+            <div class="bg-img">
+                <div top-left>
+                    <a href="index.html"><img id="lgo" src="img/logob.png" alt="logo"></a>                
+                </div>
+                
+                <div class="mid">
+                    <p id="com">Coming Soon</p>
+                    <hr>
+                    <p id="demo"></p>
+                </div>
+
+                <div class="end">
+                    <a href=""><img src="img/instagram.png" alt="Insta" style="height:4%; padding-left: 5px; ">Blot</a>
+                </div>
+            </div>
+        </body>
+       
+        <script>
+            var i=0;
+            let txt=' Stay Tuned..';
+            var speed = 150;
+
+            function typeWriter(){
+                if(i < txt.length){
+                   document.getElementById("demo").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter,speed);
+                }
+                return null;
+            }
+            document.getElementById("demo").innerHTML= typeWriter();
+        </script>
+</html>
